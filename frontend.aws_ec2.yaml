@@ -4,7 +4,7 @@ regions:
 - us-east-1
 
 hostnames:
-- ip-address
+  - ip-address
 
 filters:
   tag: Name: frontend
