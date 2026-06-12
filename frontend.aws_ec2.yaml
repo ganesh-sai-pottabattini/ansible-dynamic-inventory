@@ -12,4 +12,4 @@ filters:
 
 keyed_groups:
   - key: tags.Name
-    seperator: ''
+    separator: ''
