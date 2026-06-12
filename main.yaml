@@ -1,6 +1,7 @@
 - name:
   hosts: frontend
   become: yes
+  serial: 1
   tasks:
   - name: Ping the servers
     ping:
