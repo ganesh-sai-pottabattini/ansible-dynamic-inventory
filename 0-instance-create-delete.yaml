@@ -1,7 +1,7 @@
 #first need to do aws configure, pip3.9 install botocore boto3 netaddr
 - name: Creating / Deleting EC2 instances for roboshop project using Ansible playbook
-  hosts: local
-  connection: local
+  hosts: frontend
+  #connection: local
   vars:
     instances: [ "mongodb", "redis", "mysql", "rabbitmq", "catalogue", "user", "cart", "shipping", "payment", "frontend" ]
     image_id: ami-0220d79f3f480ecf5
