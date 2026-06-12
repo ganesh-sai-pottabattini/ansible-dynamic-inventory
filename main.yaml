@@ -1,6 +1,6 @@
 - name:
   hosts: frontend
-  become:yes
+  become: yes
   tasks:
   - name: Ping the servers
     ping:
